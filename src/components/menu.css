@@ -1,0 +1,130 @@
+.menu-one {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    /* justify-content: center; */
+
+
+}
+
+.header-start {
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+
+}
+
+.header-end {
+    align-items: center;
+    display: flex;
+    column-gap: 25px;
+    justify-content: flex-end;
+}
+
+
+
+.text-heading {
+    font-size: larger;
+    margin-left: 10px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.top-items {
+    /* border: solid red; */
+    border-width: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #306eeb;
+    align-items: center;
+
+
+}
+
+.product-list {
+    display: grid;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+
+}
+
+.top-items-list {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    /* Adjust as needed */
+    align-items: center;
+    /* Vertically center items in the container */
+    gap: 50px;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    /* Aligns vertically center */
+    justify-content: center;
+    /* Aligns horizontally center, if needed */
+    text-align: center;
+    gap: 10px;
+    justify-items: center;
+    height: 150px;
+    border:  2px solid white;
+    color: #ffffff;
+    width: 20%;
+}
+
+.product-main {
+    justify-items: center;
+    /* Center items horizontally */
+    align-items: center;
+    /* Center items vertically */
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #E5E7EB;
+    margin-top: 10px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+
+.product {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically if necessary */
+
+    height: 50%; /* Adjust based on content */
+    width: 350px;
+    
+    flex-wrap: wrap;
+    background-color: #ffffff;
+    padding: 10px; /* Add some padding */
+    margin: 10px; /* Add some margin for spacing */
+}
+
+.imgtest {
+    width: 100%;
+    height: 100px;
+    z-index: 10;
+   
+}
+#actionsTitle{
+    color: #306EEB;
+    font-size: medium;
+    font-weight: 600;
+    
+}
+
+.actionSTitle{
+    color: #000510;
+}
+.line{
+    width: 100%;
+    height: 10px;
+    background-color: #000510;
+}
